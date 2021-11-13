@@ -1,3 +1,5 @@
+[![CI](https://github.com/MaVo2010/ProjektCS/actions/workflows/ci.yml/badge.svg)](https://github.com/MaVo2010/ProjektCS/actions/workflows/ci.yml)
+
 # ProjektCS
 Die Anwendung wird eine kleine Casino Simulation sein.
 
