@@ -1,25 +1,15 @@
 package de.htwberlin.webtech.ProjektCS.web.api;
 
-public class Person {
+public class PersonManipulationRequest {
 
-    private long id;
     private String firstName;
     private String lastName;
     private boolean vaccinated;
 
-    public Person(long id, String firstName, String lastName, boolean vaccinated) {
-        this.id = id;
+    public PersonManipulationRequest(String firstName, String lastName, boolean vaccinated) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.vaccinated = vaccinated;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 
     public String getFirstName() {
@@ -42,7 +32,7 @@ public class Person {
         return vaccinated;
     }
 
-    public void setVaccinated(boolean vaccinated) {
+    public void setVaccinated(boolean Vaccinated) {
         this.vaccinated = vaccinated;
     }
 }
