@@ -12,6 +12,8 @@ public class UserManipulationRequest {
         this.validated = validated;
     }
 
+    public UserManipulationRequest() {}
+
     public String getUserName() {
         return userName;
     }
